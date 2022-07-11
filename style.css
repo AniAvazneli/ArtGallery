@@ -1,0 +1,907 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+* {
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+      display: flex;
+      flex-direction: column;
+      max-width: 100vw; 
+      /* border: 1px solid #D5966C; */
+    }
+
+.firsSection{
+    width: 100%;
+}
+
+.topImgM{
+    width: 100%;
+    height: 240px;
+}
+
+.topImgT{
+    display: none;
+}
+.topImgD{
+    display: none;
+}
+
+.white{
+    display: none;
+}
+.black{
+    display: none;
+}
+.firstSecCube{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 120px;
+}
+
+.firstCubeHeadline{
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #151515;
+    width: 100%;
+    height: 110px;
+    margin-bottom: 32px;
+}
+
+.firstCubeParagraph{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    width: 100%;
+    height: 112px;
+    margin-bottom: 32px;
+}
+
+.locationCube{
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    height: 72px;
+}
+
+.locTextConteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 204px;
+    background-color: #151515;
+}
+
+.ourLocation{
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    top: 24px;
+    bottom: 24px;
+    margin-left: 32px;
+    margin-right: 35px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+.errow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5966C;
+    height: 72px;
+    width: 56px;
+}
+
+.middleSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 120px;
+    /* width: 100%; */
+}
+
+.midFirstcubeImageM{
+    width: 100%;
+    height: 320px;
+    padding-bottom: 25px;
+}
+.midFirstcubeImageD{
+    display: none;
+}
+
+.midHeadline{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #151515;
+}
+
+.midDescription{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin-top: 21px;
+    margin-bottom: 32px;
+    height: 112px;
+    width: 100%;
+}
+
+.midSecFirstImgM{
+    width: 100%;
+    height: 480px;
+    margin-bottom: 16px;
+}
+
+.midSecFirstImgT{
+    display: none;
+}
+
+.midSec2ImageM{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 16px;
+}
+.midSec2ImageT{
+    display: none;
+}
+.midSec2ImageD{
+    display: none;
+}
+.midSecCubeTexts{
+    width: 100%;
+    height: 293px;
+    background: #151515;
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 47px;
+}
+
+.midSecCubeHeadline{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    
+}
+
+.midSecCubeParagraph{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.footer{
+    width: 100%;
+    height: 336px;
+    background: #151515;
+    padding-top: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 48px;
+}
+
+.footerImage{
+    padding-bottom: 38px;
+}
+
+.footerText{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.socialMediaIcons{
+    padding-top: 38px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.socialMediaIcons i {
+    color: #FFFFFF;
+}
+
+.socialMediaIcons i:hover{
+    color: #D5966C;
+}
+
+.locTextConteiner:hover{
+    background-color:#D5966C;
+}
+.ourLocation:hover {
+    color:black;
+}
+
+.errow:hover{
+    background-color:#151515;
+}
+
+.locBackground{
+    display: flex;
+    flex-direction: row;
+    background-image: url(./images/mobile/image-map@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100%;
+    height: 493px;
+}
+
+
+.locTextConteinerLoc{
+    width: 264px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.errowLoc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5966C;
+    height: 72px;
+    width: 56px;
+}
+
+.backToHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 208px;
+    background-color: #151515;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.locSecondSection{
+    background-color: #151515;
+    height: 493px;
+}
+
+.locHeadline{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 48px;
+    margin-left: 16px;
+}
+
+.locStreet{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #D5966C;
+    margin-top: 48px;
+    margin-left: 16px;
+}
+
+.locFirstPar{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+.locSecondPar{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.locFooter{
+    background-color: #D5966C;
+    height: 336px;
+}
+
+.locFooterHeadline{
+    margin-top: 48px;
+    margin-left: 32px;
+    margin-bottom: 38px;
+    height: 40px;
+    width: 110.0499038696289px;
+}
+
+.locFooterParagraph{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.locSocialMediaIcons{
+    padding-top: 38px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 32px;
+    margin-bottom: 48px;
+}
+
+.locSocialMediaIcons i:hover{
+    color: white;
+}
+
+.errowLoc:hover{
+   background-color: #151515;
+}
+
+.backToHome:hover{
+    background-color: #D5966C;
+}
+
+.midFirstcubeImageT{
+    display: none;
+}
+.firstCubeHeadlineB{
+    display: none;
+}
+.midSecFirstImgD{
+    display: none;
+}
+.midSec2ImageD{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .body{
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw; 
+        /* border: 1px solid #D5966C; */
+      }
+    .firsSection{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 700px;
+        margin-bottom: 120px;
+    }
+    .topImgM{
+        display: none;
+    }
+
+    .topImgT{
+        display: inline;
+        height: 100%;
+        width: 60%;
+        z-index: -1;
+    }
+    .firstSecCube{
+        margin-top: 145px;
+        margin-right: 40px;
+        margin-left: -5%;
+    }
+    .firstCubeHeadline{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 55px;
+        text-transform: uppercase;
+        color: #151515;
+        margin-bottom: 48px;
+        }
+    .firstCubeHeadlineB{
+        display: none;
+    }
+    .firstCubeParagraph{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #444444;
+        margin-bottom: 48px;
+    }
+    .middleSection{
+        margin-left: 39px;
+        margin-right: 40px;
+    }
+    .midFirstCube{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 39px;
+
+    }
+    .midFirstcubeImageM{
+        display: none;
+    }
+
+    .midFirstcubeImageT{
+        display: flex;
+        width: 55%;
+        height: 400px;
+    }
+
+    .midHeadline{
+        height: 135px;
+        width: 223px;
+    }
+    
+    .midDescription{
+        /* height: 140px; */
+        width: 223px;
+    }
+
+    .midTexts{
+        padding-right: 110px;
+    }
+
+    .midSecondCube{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        width: 100%;
+        margin-top: 11px;
+    }
+
+    .midSecFirstImgM{
+        display: none;
+    }
+
+    .midSecFirstImgT{
+        display: flex;
+        height: 720px;
+        width: 100%;
+    }
+    .midSecImgAndText{
+        padding-left: 11px;
+    }
+    .midSec2ImageM{
+        display: none;
+    }
+
+    .midSec2ImageT{
+        display: flex;
+        width: 100%;
+        height: 313px;
+        padding-bottom: 11px;
+    }
+    .midSecCubeTexts{
+        display: flex;
+        flex-direction: column;
+        height: 407px;
+        padding-top: 85px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 47px;
+    }
+
+    .midSecCubeParagraph{
+        height: 112px;
+        width: 223px;
+        padding-top: 24px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 216px;
+        padding-top: 56px;
+        padding-left: 39px;
+        padding-right: 40px;
+        padding-bottom: 56px;
+    }
+
+    .footerText{
+        height: 104px;
+        width: 281px;
+        padding-left: 64.95px;
+        height: 104px;
+        width: 281px;
+    }
+    .socialMediaIcons{
+        padding-left: 133px;
+        padding-bottom: 56px;
+        padding-top: 0px;
+    }
+    .locationCubeLoc{
+        padding-left: 30px;
+    }
+    .locSecondSection{
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+    }
+    .locHeadline{
+        margin-top: 88px;
+        margin-left: 39px;
+    }
+    .locationDescription{
+        margin-top: 88px;
+        margin-left: 68px;
+    }
+    .locStreet{
+        margin-top: 0px;
+    }
+    .locSecondPar{
+        height: 112px;
+        width: 398px;
+        margin-right: 40px;
+    }
+    .locFooter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 216px;
+        padding-top: 56px;
+        padding-left: 39px;
+        padding-right: 40px;
+        padding-bottom: 56px;
+    }
+    .locFooterParagraph{
+        height: 104px;
+        width: 281px;
+        padding-left: 64.95px;
+        height: 104px;
+        width: 281px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .locSocialMediaIcons{
+        padding-left: 133px;
+        padding-bottom: 56px;
+        padding-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .locFooterHeadline{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .locBackground{
+        background-image: url(./images/tablet/image-map@2x.png);
+    }
+    .topImgD{
+        display: none;
+    }
+    .white{
+        display: none;
+    }
+    .black{
+        display: none;
+    }
+    .midFirstcubeImageD{
+        display: none;
+    }
+    .midSecFirstImgD{
+        display: none;
+    }
+    .midSec2ImageD{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .firsSection{
+        height: 799px;
+        margin-bottom: 180px;
+    }
+    .blackSpace{
+        height: 799px;
+        width: 480px;
+        background-color: #151515;
+        flex-direction: row;
+    }
+    .topImgM{
+        display: none;
+    }
+    .topImgT{
+        display: none;
+    }
+    .topImgD{
+        display: flex;
+        width: 33.3%;
+    }
+    .firstSecCube{
+        width: 33.3%;
+        flex-direction: row;
+        gap: 60%;
+        margin-left: -3%;
+        
+    }
+    .firstCubeParagraphAndLocCube{
+        flex-direction: column;
+    }
+    .firstCubeHeadline{
+        display: none;
+    }
+    .white{
+        display: flex;
+        position: absolute;
+        top: 189px;
+        left: 198px;
+        overflow: hidden;
+    }
+
+    .black{
+        display: flex;
+        position: absolute;
+        top: 189px;
+        left: 198px;
+        overflow: hidden;
+    }
+    
+    .firstCubeParagraph{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #444444;
+        width: 350px;
+        height: 160px;
+        margin-bottom: 64px;
+    }
+    .ourLocation{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.63636px;
+        color: #FFFFFF;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .middleSection{
+        margin-left: 165px;
+        margin-right: 164px;
+        margin-bottom: 180px;
+    }
+    .midFirstcubeImageT{
+        display: none;
+    }
+    .midFirstcubeImageD{
+        display: flex;
+        height: 400px;
+        width: 50%;
+    }
+    .midTexts{
+        padding-right: 230px;
+        margin-top: 40px;
+    }
+    .midHeadline{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: #151515;
+        height: 120px;
+        width: 350px;
+    }
+    .midDescription{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #444444;
+        top: 32px;
+        width: 350px;
+    }
+    .midSecondCube{
+        margin-top: 30px;
+    }
+    .midSecFirstImgT{
+        display: none;
+    }
+    .midSecFirstImgD{
+        display: flex;
+        height: 720px;
+        width: 63%;
+        padding-right: 30px;
+    }
+    .midSec2ImageT{
+        display: none;
+    }
+    .midSec2ImageD{
+        display: flex;
+        height: 313px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .midSecCubeTexts{
+        width: 100%;
+        height: 377px;
+        padding-top: 65px;
+        padding-left: 48px;
+        padding-right: 47px;
+        padding-bottom: 64px;  
+    }
+    .midSecCubeHeadline{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        height: 120px;
+        width: 350px;
+    }
+    .midSecCubeParagraph{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #FFFFFF;
+        height: 96px;
+        width: 350px;
+        padding-top: 32px;
+    }
+    .footer{
+        height: 244px;
+        padding-top: 80px;
+        padding-left: 165px;
+        padding-right: 165px;
+        padding-bottom: 80px;
+    }
+    .footerImage{
+        height: 58px;
+        width: 159.57235717773438px;
+        padding-bottom: 0px;
+    }
+    .footerText{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-left: 140.43px;
+        height: 84px;
+        width: 430px;
+    }
+    .socialMediaIcons{
+        margin-left: 280px;
+        padding-left: 0px;
+    }
+
+    
+    .locBackground{
+        background-image: url(./images/desktop/image-map@2x.png);
+    }
+    .locTextConteinerLoc{
+        margin-left: 156px;
+        padding-left: 0px;
+    }
+    .locSecondSection{
+        height: 548px;
+    }
+    .locHeadline{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        height: 140px;
+        width: 350px;
+        margin-top: 104px;
+        margin-left: 165px;
+    }
+    .locationDescription{
+        margin-top: 104px;
+        margin-left: 220px;
+    }
+    .locStreet{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .locFirstPar{
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 24px;
+    }
+    .locSecondPar{
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 32px;
+        height: 128px;
+        width: 540px;
+    }
+    .locFooter{
+        height: 244px;
+        padding-top: 80px;
+        padding-left: 165px;
+        padding-right: 165px;
+        padding-bottom: 80px;
+    }
+    .locFooterHeadline{
+        height: 58px;
+        width: 159.57235717773438px;
+
+    }
+    .locFooterParagraph{
+        font-size: 18px;
+        line-height: 28px;
+        height: 84px;
+        width: 430px;
+        left: 300px;
+        margin-left: 140.43px;
+    }
+    .locSocialMediaIcons{
+        padding-left: 280px;
+    }
+}
